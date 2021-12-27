@@ -32,8 +32,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- [Solution URL:](https://your-solution-url.com)
-- [Live Site URL:](https://pcardas.github.io/frontendmentor-profile-card/)
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://pcardas.github.io/frontendmentor-profile-card/)
 
 ## My process
 
