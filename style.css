@@ -1,0 +1,169 @@
+/* Import Fonts from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+/* Predifined Styles */
+:root {
+  /* Primary */
+  --cyan: hsl(185, 75%, 39%);
+  --desat-blue: hsl(229, 23%, 23%);
+  --gray-blue: hsl(227, 10%, 46%);
+
+  /* Neutral */
+  --dark-gray: hsl(0, 0%, 59%);
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  color: var(--desat-blue);
+}
+
+h1,
+h2,
+span {
+  font-size: 18px;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: var(--cyan);
+  background-image: url(images/bg-pattern-top.svg),
+    url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 50vw bottom 42vh, left 46vw top 55vh;
+  display: flex;
+}
+
+.container {
+  align-self: center;
+  justify-self: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 10px 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  margin-bottom: -58px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto 20px auto;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.age,
+.city,
+.meta {
+  font-weight: 400;
+  color: var(--dark-gray);
+  opacity: 0.8;
+}
+
+.name-age {
+  font-weight: 700;
+}
+
+.age {
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.city {
+  margin: 10px auto 22px auto;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.card-footer {
+  border-top: 1px solid rgba(150, 150, 150, 0.342);
+  display: flex;
+  padding: 0 25px;
+}
+
+.item {
+  flex: 1;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.card-footer,
+.item,
+.meta {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.082);
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 10px;
+  position: absolute;
+  font-size: 8px;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--desat-blue);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-position: right 50vw bottom 42vh, left 46vw top 55vh;
+  }
+}
+
+@media screen and (min-width: 646px) {
+  body {
+    background-position: right 50vw bottom 42vh, left 48vw top 58vh;
+  }
+}
