@@ -32,7 +32,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/1st-project-replicated-the-design-using-html-and-css-G9oeFOPNH)
 - [Live Site URL](https://pcardas.github.io/frontendmentor-profile-card/)
 
 ## My process
